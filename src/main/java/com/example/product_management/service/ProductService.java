@@ -12,7 +12,6 @@ public class ProductService {
     private List<Product> products = new ArrayList<>();
 
     public ProductService() {
-        // Tạo sẵn 3 sản phẩm giả lập
         products.add(new Product(1L, "Bàn làm việc bằng gỗ", 1500000.0));
         products.add(new Product(2L, "Ghế xoay văn phòng", 850000.0));
         products.add(new Product(3L, "Tủ đựng tài liệu", 2200000.0));
